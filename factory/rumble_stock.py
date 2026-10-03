@@ -23,7 +23,7 @@ if __name__ == "__main__" and not os.environ.get("FACTORY_KEY"):   # run as a jo
     print("::notice::FACTORY_KEY is not set yet - finish setup (say 'set me up' to your Claude). Nothing was stocked.")
     sys.exit(0)
 
-TAG, REPO = "sources", os.environ.get("GITHUB_REPOSITORY", "YOUR-GITHUB-NAME/YOUR-REPO")
+TAG, REPO = "sources", os.environ.get("GITHUB_REPOSITORY", "dustinwarner84/my-factory")
 arg = lambda n, d: int(sys.argv[sys.argv.index(n) + 1]) if n in sys.argv else d
 MAX, STOCK = arg("--max", 2), arg("--stock", 6)
 

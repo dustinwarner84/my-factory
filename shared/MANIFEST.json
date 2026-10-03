@@ -2,7 +2,7 @@
  "note": "canonical shared engine; every project pulls these at setup",
  "files": {
   "kt_burn.py": "7ca881155551a6594740cbf5bff2eb012868290f",
-  "kt_lock.py": "43f3f92b3de7bbd5b6eb8871e835d4e15e59eda6",
+  "kt_lock.py": "454e38304c256ea1b2f367292e0f313992983293",
   "kt_qc.py": "97ea24102fde1633ee22aaa963a8e41186b6e932",
   "kt_render.py": "97cf57efac2614ffa07cfeb43e4a833cafeb5f69",
   "kt_snap.py": "4cde48bcc10f070e2574cb7f444e0ecc26a38e0c",
